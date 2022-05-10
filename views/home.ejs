@@ -1,0 +1,37 @@
+<%- include('partials/header'); -%>
+
+<header>
+  <div class="header-title">
+    <h1>Internship Training Program</h1>
+  </div>
+  <div class="headings">
+    <p>Get trained, work on live projects and get certified in 8 weeks.</p>
+    <% if (!user) { %>
+    <a href="/signup" class="register-btn">Register</a>
+    <% } %>
+    <a href="/smoothies" class="btn">View Course</a>
+    <p class="application-deadline">Application Deadline: 11:00 AM, 24th September,2021</p>
+  </div>
+</header>
+  <div class="home-description">
+    <div class="home-description-content">
+      <h2>Upskilling</h2>
+      <p>8 Weeks of intensive training & certifications through structured, industry vetted curriculum.</p>
+    </div>
+    <div class="home-description-content">
+      <h2>Live Projects</h2>
+      <p>Build real, ready-to-ship products with team members, professionals & students from other tracks.</p>
+    </div>
+    <div class="home-description-content">
+      <h2>Workplace Skills</h2>
+      <p>Build your resume,enhance your profile & get noticed by recruiters from top companies.</p>
+    </div>
+    <div class="home-description-content">
+      <h2>Industry Certification</h2>
+      <p>Get Internship & training certificates and gain a point of differentiation on your CV for your college placements.</p>
+    </div>
+  </div>
+
+
+
+<%- include('partials/footer'); -%>
